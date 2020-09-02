@@ -1,0 +1,46 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+}
+.header picture.header__pic {
+  display: block;
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+.hero {
+  width: 35rem;
+}
+.hero img {
+  width: 45rem;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.cards__items-wrap {
+  grid-column: 3/span 3;
+}
+.next__step-wrap {
+  grid-column: 7/span 4;
+}
+.credit__data-wrap {
+  grid-column: 3/span 3;
+}
+.destiny-wrap {
+  grid-column: 7/span 4;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 5/span 4;
+}
+.contact .subtitles {
+  grid-column: 1/span 2;
+}
+.contact picture {
+  align-self: center;
+}
+.contact .btn {
+  align-self: center;
+}
